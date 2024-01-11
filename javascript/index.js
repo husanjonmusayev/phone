@@ -29,7 +29,7 @@ btn && btn.addEventListener('click', function(){
 validate()
 if(validate()){
     let list = {
-        file : URL.createObjectURL(file.files[0]),
+        file : file.files,
         type : type.value,
         color : color.value,
         sum : sum.value,
